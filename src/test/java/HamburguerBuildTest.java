@@ -28,6 +28,7 @@ public class HamburguerBuildTest {
                 .setQueijo(true)
                 .setMolho("molho especial")
                 .setPicles(true)
+                .setPao("gergelim")
                 .build();
 
         assertNotNull(hamburguer);
